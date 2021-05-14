@@ -1,18 +1,24 @@
 # home_pihole
 
-#to install
-sudo apt install docker.io
+### Install
 
-#add pi to docker group so that dont have to use sudo
-sudo usermod -aG docker pi
+`sudo apt install docker.io`
 
-#to check docker installation
+### Add pi to docker group so that dont have to use sudo
+
+`sudo usermod -aG docker pi`
+
+### Check docker installation
+```
 docker info
 docker version
+```
 
-#to run docker
-chmod u+x ./docker_run.sh 
-./docker_run.sh 
+### to run docker
+```
+chmod u+x ./docker_run.sh
+./docker_run.sh
+```
 
-#to check
-docker ps
+### Check status
+`docker ps`
